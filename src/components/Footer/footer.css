@@ -1,0 +1,132 @@
+.Footer {
+  background: #1b3a61;
+  margin-top: 11%;
+  display: flex;
+  color: aliceblue;
+  align-items: center;
+  align-items: baseline;
+}
+
+.f-left {
+  width: 25%;
+  margin-left: 8%;
+  text-align: left;
+}
+.f-left h1 {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+}
+.f-middle {
+  width: 25%;
+  margin-left: 5%;
+  text-align: left;
+}
+
+.f-right {
+  width: 23%;
+  text-align: left;
+}
+.f-right h1 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #cccccc;
+}
+.f-right p {
+  color: white;
+  font-size: 16px;
+  line-height: 22px;
+}
+.f-middle-links a {
+  display: flex;
+  color: white;
+  font-size: 16px;
+  line-height: 36px;
+  text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  .Footer {
+    background: #1b3a61;
+    margin-top: 57%;
+    display: flex;
+    color: aliceblue;
+    align-items: baseline;
+    flex-direction: column;
+  }
+  .f-left {
+    width: 50%;
+    margin-left: 17%;
+  }
+  .f-middle {
+    width: 46%;
+    display: flex;
+  }
+  .f-right {
+    width: 41%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .Footer {
+    background: #1b3a61;
+    margin-top: 57%;
+    display: flex;
+    color: aliceblue;
+    align-items: baseline;
+    flex-direction: column;
+  }
+  .f-left {
+    width: 50%;
+    margin-left: 17%;
+  }
+  .f-middle {
+    width: 46%;
+    display: flex;
+  }
+  .f-right {
+    width: 41%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Footer {
+    background: #1b3a61;
+    margin-top: 57%;
+    display: flex;
+    color: aliceblue;
+    align-items: baseline;
+    flex-direction: column;
+  }
+  .f-left {
+    width: 50%;
+    margin-left: 17%;
+  }
+  .f-middle {
+    width: 46%;
+    display: flex;
+  }
+  .f-right {
+    width: 41%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .Footer {
+    background: #1b3a61;
+    margin-top: 57%;
+    display: flex;
+    color: aliceblue;
+    align-items: baseline;
+    flex-direction: column;
+  }
+  .f-left {
+    width: 50%;
+    margin-left: 17%;
+  }
+  .f-middle {
+    width: 46%;
+    display: flex;
+  }
+  .f-right {
+    width: 41%;
+  }
+}
